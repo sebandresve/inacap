@@ -1,0 +1,9 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="cl.inacap.unidad1.activity.ClientesActivity" >
+
+    <item
+        android:id="@+id/menu_crear"
+        android:title="@string/menu_crear"/>
+
+</menu>

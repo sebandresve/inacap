@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Primera Aplicacion</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_usuarios">UsuariosActivity</string>
+    <string name="lista_vacia">Sin Datos</string>
+    <string name="title_activity_clientes">ClientesActivity</string>
+    <string name="title_activity_cliente_formulario">ClienteFormularioActivity</string>
+    <string name="label_nombre_cliente">Nombre:</string>
+    <string name="label_direccion">Dirección:</string>
+    <string name="label_telefono">Telefono:</string>
+    <string name="label_estado">Activo</string>
+    <string name="menu_crear">Nuevo</string>
+    <string name="cliente_crear_titulo">Nuevo Cliente</string>
+    <string name="cliente_crear_confirmacion">Cliente creado</string>
+    <string name="menu_guardar">Guardar</string>
+    <string name="menu_cancelar">Cancelar</string>
+    <string name="menu_eliminar">Eliminar</string>
+    <string name="cliente_eliminar_titulo">Eliminar Cliente</string>
+    <string name="cliente_eliminar_mensaje">¿Seguro que desea eliminar el cliente?</string>
+    <string name="cliente_eliminar_confirmacion">Cliente eliminado</string>
+    <string name="cliente_editar_titulo">Editar Cliente</string>
+    <string name="cliente_editar_confirmacion">Cliente modificado</string>
+    <string name="menu_editar">Editar</string>
+    <string name="menu_visualizar">Ver</string>
+    <string name="title_activity_productos">ProductosActivity</string>
+    <string name="title_activity_add_producto">AddProductoActivity</string>
+    <string name="title_activity_registrar_producto">RegistrarProductoActivity</string>
+
+</resources>
