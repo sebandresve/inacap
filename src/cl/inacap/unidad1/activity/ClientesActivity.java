@@ -2,7 +2,6 @@ package cl.inacap.unidad1.activity;
 
 import cl.inacap.unidad1.clases.ClienteCursorAdapter;
 import cl.inacap.unidad1.clases.ClienteDbAdapter;
-import android.app.Activity;
 import android.app.AlertDialog;
 import android.app.ListActivity;
 import android.content.DialogInterface;
@@ -49,7 +48,19 @@ public class ClientesActivity extends ListActivity {
 			}
 
 		});
+		
+		Button btn_mapa = (Button) findViewById(R.id.btn_mapa);
+		btn_mapa.setOnClickListener(new OnClickListener() {
 
+			@Override
+			public void onClick(View v) {
+				Intent intent = new Intent(ClientesActivity.this,
+						MapaActivity.class);
+				ClientesActivity.this.startActivity(intent);
+			}
+
+		});
+		
 		lista = (ListView) findViewById(android.R.id.list);
 
 		dbAdapter = new ClienteDbAdapter(this);
