@@ -28,5 +28,6 @@
     <string name="title_activity_productos">ProductosActivity</string>
     <string name="title_activity_add_producto">AddProductoActivity</string>
     <string name="title_activity_registrar_producto">RegistrarProductoActivity</string>
+    <string name="title_activity_mapa">MapaActivity</string>
 
 </resources>
